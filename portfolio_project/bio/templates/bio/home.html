@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+
+    <!-- BIO SECTION -->
+    {% for b in bio %}
+    <div class="bio-section">
+
+        <div class="bio-left">
+            <img src="{{ b.profile_picture.url }}" alt="Profile">
+        </div>
+
+        <div class="bio-right">
+            <h1>{{ b.name }}</h1>
+            <h3>{{ b.job_title }}</h3>
+            <p>{{ b.description }}</p>
+        </div>
+
+    </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,103 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    padding: 15px 40px;
+}
+
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* CONTAINER */
+.container {
+    padding: 40px;
+}
+
+/* HERO */
+.hero {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+/* SECTIONS */
+section {
+    margin-bottom: 40px;
+    
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #000;
+}
+
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    color: black;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* BIO SECTION */
+.bio-section {
+    display: flex;
+    width: 900px;
+    align-items: center;
+    gap: 40px;
+    background: white;
+    margin: 10px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* LEFT IMAGE */
+.bio-left img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* RIGHT TEXT */
+.bio-right h1 {
+    margin: 0;
+    color: black;
+    font-size: 28px;
+}
+
+.bio-right h3 {
+    color: #3b82f6;
+    margin: 10px 0;
+}
+
+.bio-right p {
+    color: #555;
+}

@@ -1,0 +1,16 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<h1>Skills</h1>
+<div class="cards">
+{% for i in data %}
+<div class="card">
+<h3>{{ i.name }}</h3>
+<p>{{ i.level }}</p>
+</div>
+{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,128 @@
+body {
+   font-family: 'Poppins', sans-serif;
+    background: #1e293b; /* deep navy background */
+    color: #e2e8f0; 
+}
+body.light-theme {
+  background: #f8fafc;
+  color: #0f172a;
+}
+body.light-theme .navbar {
+  background: #e2e8f0;
+}
+
+body.light-theme .card {
+  background: #ffffff;
+  color: #0f172a;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     background: #0f172a;
+    padding: 15px 40px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+     font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #64ffda;
+}
+
+
+/* CONTAINER */
+.container {
+    padding: 40px;
+     max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+.hero {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+/* SECTIONS */
+section {
+    margin-bottom: 40px;
+    
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #000;
+     justify-content: center;
+}
+
+
+.card {
+    background: #334155;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+     color: #f1f5f9;
+}
+
+.card:hover {
+     transform: scale(1.05);
+    background: #3b82f6; /* highlight on hover */
+    color: white;
+}
+
+/* BIO SECTION */
+.bio-section {
+    display: flex;
+    width: 900px;
+    align-items: center;
+    gap: 40px;
+    background: white;
+    margin: 10px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* LEFT IMAGE */
+.bio-left img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+ border: 4px solid #64ffda;
+}
+
+/* RIGHT TEXT */
+.bio-right h1 {
+    margin: 0;
+    color: black;
+    font-size: 28px;
+}
+
+.bio-right h3 {
+    color: #3b82f6;
+    margin: 10px 0;
+}
+
+.bio-right p {
+    color: #555;
+}
